@@ -1,9 +1,9 @@
 # waybar-dnf-updates
 ![waybar-dnf-updates](https://github.com/user-attachments/assets/42ceaad1-af96-41b4-9f2d-b7c00321afde)
 
-Download the `checkupdates` script, put it in `$HOME/.config/waybar/scripts/checkupdates.sh`.
+Download the `checkupdates.sh` script, put it in `$HOME/.config/waybar/scripts/checkupdates.sh`.
 
-To configure, add the following to your Waybar config (`~/.config/waybar/config`).
+To configure, add the following to your Waybar config (`$HOME/.config/waybar/config`).
 
 
 ```json
