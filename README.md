@@ -1,7 +1,5 @@
-# waybar-apt-updates
-
-![Screenshot with updates](screenshot-has-updates.png)
-![Screenshot updates](screenshot-updated.png)
+# waybar-dnf-updates
+![gifmaker_me](https://github.com/user-attachments/assets/42ceaad1-af96-41b4-9f2d-b7c00321afde)
 
 A simple Waybar update checking script for distros using the APT package manager. It is a general script and could work with other bars or just be run in the terminal.
 
