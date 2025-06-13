@@ -6,6 +6,7 @@ update_count=$(echo "$updates" | grep -v '^$' | wc -l)
 alt="has-updates"
 if [ $update_count -eq 0 ]; then
     alt="updated"
+    update_count=""
 else
     tooltip=$(echo "$updates" | sed ':a;N;$!ba;s/\n/\\n/g')
 fi

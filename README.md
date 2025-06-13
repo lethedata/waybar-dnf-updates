@@ -14,11 +14,8 @@ To configure, add the following to your Waybar config (`$HOME/.config/waybar/con
     "interval": 900, // refresh every 15 minutes
     "return-type": "json",
     "format": "{icon}",
-    "format-alt": "{icon} {}",
-    "format-icons": {
-        "has-updates": "", // icon when updates needed
-        "updated": "" // icon when all packages updated
-    }
+    "format-alt": "{icon} ",
+    "hide-empty-text": true
     },
 ```
 
